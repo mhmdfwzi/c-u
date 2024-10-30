@@ -1,41 +1,39 @@
-@extends('frontend.layouts.master')
+<?php $__env->startSection('seo_data'); ?>
+    <?php echo $__env->make('frontend.layouts.default_seo_data', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php $__env->stopSection(); ?>
 
-@section('seo_data')
-    @include('frontend.layouts.default_seo_data')
-@endsection
+<?php $__env->startPush('style'); ?>
+<?php $__env->stopPush(); ?>
 
-@push('style')
-@endpush
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <!-- Gallery Start -->
-    @include('frontend.pages.HomeParts.gallerySection')
+    <?php echo $__env->make('frontend.pages.HomeParts.gallerySection', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
 
-    {{-- about us section --}}
-    @include('frontend.pages.HomeParts.aboutSection')
+    
+    <?php echo $__env->make('frontend.pages.HomeParts.aboutSection', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-    {{-- Our Services --}}
-    @include('frontend.pages.HomeParts.ourServicesSection')
+    
+    <?php echo $__env->make('frontend.pages.HomeParts.ourServicesSection', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
     <!-- Numbers section -->
-    @include('frontend.pages.HomeParts.numbersSection')
+    <?php echo $__env->make('frontend.pages.HomeParts.numbersSection', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <!-- our products section -->
-    {{-- our products --}}
     
-    {{-- blogs section --}}
+    
+    
 <!-- blogs section -->
      
 <!-- why choose us section -->
-    {{-- why choose us section --}}
-    @include('frontend.pages.HomeParts.whyChooseUsSection')
+    
+    <?php echo $__env->make('frontend.pages.HomeParts.whyChooseUsSection', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <!-- our clients section -->
 
-    {{-- our clients --}}
-    @include('frontend.pages.HomeParts.ourClientsSection')
-@endsection
+    
+    <?php echo $__env->make('frontend.pages.HomeParts.ourClientsSection', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php $__env->stopSection(); ?>
 <!-- end our clients section -->
-@push('scripts')
+<?php $__env->startPush('scripts'); ?>
     <script>
         $('.customer-logos').slick({
             slidesToShow: 6,
@@ -92,4 +90,6 @@
         // Click to start the animation
         controlUp.addEventListener('click', elevator);
     </script>
-@endpush
+<?php $__env->stopPush(); ?>
+
+<?php echo $__env->make('frontend.layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\projects\c-u\resources\views/frontend/pages/home.blade.php ENDPATH**/ ?>

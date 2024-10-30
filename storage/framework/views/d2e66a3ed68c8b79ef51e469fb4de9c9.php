@@ -1,9 +1,8 @@
-@extends('frontend.layouts.master')
-@section('seo_data')
-    @include('frontend.layouts.default_seo_data')
-@endsection
+<?php $__env->startSection('seo_data'); ?>
+    <?php echo $__env->make('frontend.layouts.default_seo_data', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php $__env->stopSection(); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
     <!-- Contact Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -55,4 +54,6 @@
         </div>
     </div>
     <!-- Contact End -->
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('frontend.layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\projects\c-u\resources\views/frontend/pages/contact.blade.php ENDPATH**/ ?>

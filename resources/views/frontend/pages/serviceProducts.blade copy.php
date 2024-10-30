@@ -12,9 +12,9 @@
         <div class="container text-center py-5">
             <h1 class="display-4 text-white animated slideInDown mb-4">
                 @if ($type == 'product')
-                    <p> معرض المنتجات </p>
+                    <p> فرصة سفر</p>
                 @elseif ($type == 'service')
-                    <p> معرض الخدمات</p>
+                    <p> فرصة سفر </p>
                 @endif
 
 

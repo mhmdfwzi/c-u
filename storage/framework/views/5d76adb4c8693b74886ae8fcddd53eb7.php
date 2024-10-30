@@ -14,3 +14,4 @@
     </div>
 </footer>
 <!-- Footer closed -->
+<?php /**PATH D:\projects\c-u\resources\views/backend/layouts/footer.blade.php ENDPATH**/ ?>

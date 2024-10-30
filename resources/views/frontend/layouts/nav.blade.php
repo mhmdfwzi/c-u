@@ -1,7 +1,7 @@
 <nav class="navbar bg-white navbar-light sticky-top px-3 px-lg-5 my-2">
     <section class="navbar-left">
         <a href="{{ route('home') }}" class="navbar-brand">
-            <img class="img-fluid" height="50" width="150" src="{{ asset('frontend/img/logo_1.png') }}" alt="">
+            <img class="img-fluid" height="50" width="150" src="{{ asset('frontend/img/logo-1.png') }}" alt="">
             {{-- الدولية للمصاعد --}}
         </a>
     </section>
@@ -41,7 +41,7 @@
                 </li>
 
                 <li class="menu-item menu-dropdown">
-                    <span class="menu-link">خدماتنا<i class="ion ion-ios-arrow-down m-1"></i></span>
+                    <span class="menu-link">فرصة سفر<i class="ion ion-ios-arrow-down m-1"></i></span>
                     <div class="submenu megamenu megamenu-column-4">
 
                         @foreach ($services->take(4) as $service)
@@ -60,34 +60,14 @@
                     </div>
                 </li>
 
-                <li class="menu-item menu-dropdown">
-                    <span class="menu-link">منتجاتنا<i class="ion ion-ios-arrow-down m-1"></i></span>
-                    <div class="submenu megamenu megamenu-column-4">
-
-                        @foreach ($products->take(4) as $product)
-                            <div class="submenu-inner">
-                                <a href="{{ route('serviceProductDetails', $product->id) }}"
-                                    class="submenu-link-1 mb-2">
-                                    <img src="{{ $product->image_url }}" style="min-height: 200px; max-height:200px"
-                                        class="h-100 w-100  submenu-image" alt="Product">
-                                    <span class="submenu-title">{{ $product->title }}</span>
-                                </a>
-                            </div>
-                        @endforeach
-                        <div class="m-auto">
-                            <a href="{{ route('servicesProducts', 'product') }}" style="color: #e52422;">عرض الكل</a>
-                        </div>
-                    </div>
-                </li>
+     
 
 
                 <li class="menu-item">
-                    <a href="{{ route('blogsNews', 'blog') }}" class="menu-link" {{-- class="{{ request()->routeIs(['blogsNews', 'blog']) ? 'menu-link-active' : 'menu-link' }}" --}}>المدونة</a>
+                    <a href="#" class="menu-link"  >المدونة</a>
                 </li>
 
-                <li class="menu-item">
-                    <a href="{{ route('blogsNews', 'news') }}" class="menu-link" {{-- class="{{ request()->routeIs('blogsNews', 'news') ? 'menu-link-active' : 'menu-link' }}" --}}>الأخبار</a>
-                </li>
+ 
 
                 <li class="menu-item">
                     <a href="{{ route('contact') }}"

@@ -2,7 +2,7 @@
     $metaData = App\Models\MetaData::pluck('value', 'key')->toArray(); // Populate the $metaData property
 @endphp
 
-@section('title', 'المصاعد الدولية')
+@section('title', 'See You ')
 
 <meta content="{{ $metaData['description'] }}" name="description">
 <meta content="{{ $metaData['keywords'] }}" name="keywords">

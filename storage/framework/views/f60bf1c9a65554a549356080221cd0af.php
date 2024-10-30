@@ -4,7 +4,7 @@
     </div>
     <div class="row align-items-center ">
         <div class="col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.1s">
-            {{-- <h1 class="mb-5" style="font-size: 28px"> بعض الأسباب التي تجعل الأشخاص يختاروننا ! </h1> --}}
+            
             <p>
                 فنحن الأسرع والأدق والأكثر مصداقية وجديه فى التعامل. فثقتكم فينا تزيد من مسئوليتنا. لدينا ممثلين بالجهات المعنية سواء بتسهيل إجراءات الإقامة أو إجراءات سفر المتعاقدين سواء الوزارات أو السفارات أو القنصليات أو الملحقيات الثقافية لسرعة سفر المرشحين وضمان وصولهم في الموعد المقرر من قبل العملاء
 
@@ -42,3 +42,4 @@
         </div>
     </div>
 </div>
+<?php /**PATH D:\projects\c-u\resources\views/frontend/pages/HomeParts/whyChooseUsSection.blade.php ENDPATH**/ ?>

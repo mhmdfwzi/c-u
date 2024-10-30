@@ -2,9 +2,9 @@
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner slider-content">
 
-            @foreach ($gallery as $index => $item)
-                <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
-                    <img class="w-100 gallery-image" src="{{ $item->image_url }}" alt="Image">
+            <?php $__currentLoopData = $gallery; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $index => $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <div class="carousel-item <?php echo e($index == 0 ? 'active' : ''); ?>">
+                    <img class="w-100 gallery-image" src="<?php echo e($item->image_url); ?>" alt="Image">
                     <div class="carousel-caption">
                         <div class="container-fluid">
                             <div class="row justify-content-center">
@@ -13,7 +13,7 @@
                         </div>
                     </div>
                 </div>
-            @endforeach
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
@@ -26,3 +26,4 @@
         </button>
     </div>
 </div>
+<?php /**PATH D:\projects\c-u\resources\views/frontend/pages/HomeParts/gallerySection.blade.php ENDPATH**/ ?>

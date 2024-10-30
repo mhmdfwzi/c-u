@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <title>@yield('title')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/logo_1.png') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('frontend/img/logo.png') }}" />
 
     @yield('seo_data')
 

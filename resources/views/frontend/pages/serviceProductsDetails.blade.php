@@ -87,11 +87,10 @@
                 <div class="d-flex justify-content-center my-4">
                     <a href="{{ route('createOrder', $serviceProduct->id) }}" class="btn btn-info text-white ">
                         @if ($serviceProduct->type == 'product')
-                            طلب
-                            المنتج
+                          تقدم بطلب
                         @else
-                            طلب
-                            الخدمة
+                             
+                            تقدم بطلب
                         @endif
                     </a>
                 </div>
@@ -104,7 +103,7 @@
             <div class="col-lg-4 col-md-4 mt-4">
 
 
-                <h4>منتجات أخرى</h4>
+                <h4>  فرص سفر اخرى </h4>
                 @foreach ($popularServiceProduct as $popular)
                     <div class="d-flex mt-5" style="justify-content: flex-start; align-items:center">
 

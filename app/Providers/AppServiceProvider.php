@@ -40,5 +40,7 @@ class AppServiceProvider extends ServiceProvider
             'products' => $products,
             'website_info' => $website_info
         ]);
+
+        
     }
 }

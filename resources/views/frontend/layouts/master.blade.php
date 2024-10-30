@@ -26,18 +26,14 @@
 
 
     <div class="float-buttons">
-        <div class="d-flex justify-content-center"> 
-            <a href="https://international-elevators.com/storage/portfolio/profile.pdf" target="_blank" alt="WhatsApp">
-                <img src="{{ asset('frontend/img/downloads.png') }}" height="55" width="55" alt="WhatsApp">
-            </a>
-        </div>
+        
 		        <div class="d-flex justify-content-center">
-            <a href="tel:+0534225050" target="_blank">
+            <a href="tel:+201070001975" target="_blank">
                 <img src="{{ asset('frontend/img/phone_icon.png') }}" height="55" width="55" alt="WhatsApp">
             </a>
         </div>
 
-        <a href="https://api.whatsapp.com/send?phone=966534225050" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=01070001975" target="_blank">
             <img src="{{ asset('frontend/img/whatsapp_logo.webp') }}" alt="WhatsApp" class="whatsapp-icon">
         </a>
 
