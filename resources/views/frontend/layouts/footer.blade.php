@@ -7,7 +7,7 @@
             <div class="col-lg-4 col-md-4 col-12 pb-3 ">
                 <h1 class="text-white mb-4" style="font-size: 25px; color:#8f93a5 !important">
                     <div style>
-                        <img class="img-fluid" style="height: 220px; width:280px; object-fit:fill"
+                        <img class="img-fluid" style="height: 220px; width:330px; object-fit:fill"
                             src="{{ asset('frontend/img/logo.png') }}" alt="">
                     </div>
                     {{-- الدولية للمصاعد --}}
@@ -60,7 +60,7 @@
 
             <div class="col-lg-4 col-md-4 col-12 pb-3 ">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1719.3911922836442!2d31.18673150599936!3d30.470601330858575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7df5b6889e625%3A0xc9a6da9a2bd40a6a!2sF5CQ%2B522%2C%20Koleyet%20Al%20Tegara%2C%20Qism%20Banha%2C%20Banha%2C%20Al-Qalyubia%20Governorate%206470174!5e0!3m2!1sen!2seg!4v1730285862755!5m2!1sen!2seg"
-                 width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 width="330" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
         </div>
