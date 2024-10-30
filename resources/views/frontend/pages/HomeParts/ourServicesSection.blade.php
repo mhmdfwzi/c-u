@@ -1,29 +1,10 @@
 <div class="container-fluid py-5">
     <div class="container-xxl">
         <div class="d-flex justify-content-between wow fadeInUp" data-wow-delay="0.1s">
-            <h1 class="display-6 mb-5">خدماتنا</h1>
+            <h1 class="display-6 mb-5">فرصة سفر</h1>
             <a href="{{ route('servicesProducts', 'service') }}" style="color: #e52422">عرض الكل</a>
         </div>
-        {{-- <div class="row g-4 justify-content-center">
-                  @foreach ($services as $service)
-                      <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                          <div class="service-item">
-                              <div>
-                                  <img class="w-100 h-100 " src="{{ $service->image_url }}"
-                                      style="min-height: 200px; max-height:200px" alt="">
-                              </div>
-                              <div class="d-flex align-items-center bg-light">
-                                  <div class="service-icon flex-shrink-0 bg-white">
-  
-                                      <i {!! $service->icon ? $service->icon : '' !!} style="font-size:25px"></i>
-                                  </div>
-                                  <a class="h5 mx-4 mb-0"
-                                      href="{{ route('serviceProductDetails', $service->id) }}">{{ $service->title }}</a>
-                              </div>
-                          </div>
-                      </div>
-                  @endforeach
-              </div> --}}
+ 
         <div class="row g-4 justify-content-center">
             @foreach ($services as $key => $service)
                 @if ($key === 0)
