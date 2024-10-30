@@ -65,61 +65,7 @@
 
         </div>
 
-        {{-- <div class="col-md-6">
-                <h5 class="text-light mb-4">Newsletter</h5>
-                <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita.</p>
-                <div class="position-relative">
-                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                        placeholder="Your email">
-                    <button type="button"
-                        class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                </div>
-            </div> --}}
-
-        {{-- <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">تواصل معنا</h5>
-                    <div class="d-flex align-items-center mb-3">
-                        <i class="fa fa-map-marker-alt mx-2"></i>
-                        <span>منطقة عسير - مدينة أبها - طريق الملك فهد، أمام صناعية أبها</span>
-                    </div>
-
-                    <p><i class="fa fa-phone-alt mx-2"></i>رقم جوال خدمة العملاء :0534225050</p>
-                    <p><i class="fa fa-envelope mx-2"></i>int.elevator@hotmail.com</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">خدماتنا</h5>
-                    @foreach ($services as $service)
-                        <a href="{{ route('serviceProductDetails', $service->id) }}"
-                            class="btn btn-link">{{ $service->title }}</a>
-                    @endforeach
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">منتجاتنا</h5>
-                    @foreach ($products as $product)
-                        <a href="{{ route('serviceProductDetails', $product->id) }}"
-                            class="btn btn-link">{{ $product->title }}</a>
-                    @endforeach
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">روابط سريعة</h5>
-                    @foreach ($pages as $page)
-                        <a href="{{ route('page.show', $page->slug) }}" class="btn btn-link">{{ $page->title }}</a>
-                    @endforeach
-                </div>
-            </div> --}}
-
-        {{-- <div class="col-lg-3 col-md-6">
-                <h5 class="text-light mb-4">Follow Us</h5>
-                <div class="d-flex">
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div> --}}
-    </div>
-    {{-- </div> --}}
+     
     <div class="container-fluid copyright">
         <div class="container">
             <div class="row" >
